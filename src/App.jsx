@@ -70,32 +70,32 @@ export default function Portfolio() {
 
   const initialProjects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'Full-stack online shopping platform with payment integration and admin dashboard.',
-      image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500&h=300&fit=crop',
-      tags: ['React', 'Node.js', 'MongoDB'],
-      link: '#'
+      title: 'Spinocerebellar Ataxia',
+      description: 'Educational presentation on Spinocerebellar Ataxia, a neurological disorder.',
+      image: '/images/Spinocerebellar Ataxia.jpeg',
+      tags: ['educational'],
+      link: 'https://www.canva.com/design/DAE-J3vykbA/DHLaXMNC0S_uiaG3QVwhUA/edit?utm_content=DAE-J3vykbA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative task manager with real-time updates and team features.',
-      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=500&h=300&fit=crop',
-      tags: ['React', 'Firebase', 'Tailwind'],
-      link: '#'
+      title: 'Qamar Team Logo',
+      description: 'Logo design for the Qamar team at German Jordanian University.',
+      image: '/images/gju logo.jpg',
+      tags: ['educational'],
+      link: 'https://www.canva.com/design/DAGb1ChS2bA/MuYucaIXHqtWEala8djEpg/edit?utm_content=DAGb1ChS2bA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Interactive weather app with location-based forecasts and data visualization.',
-      image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=500&h=300&fit=crop',
-      tags: ['JavaScript', 'API', 'Charts'],
-      link: '#'
+      title: 'Presentation about The Pursuit of Happyness Film',
+      description: 'Educational presentation analyzing the film The Pursuit of Happyness.',
+      image: '/images/The Pursuit of Happyness Film.jpg',
+      tags: ['educational'],
+      link: 'https://www.canva.com/design/DAG8hqMOFik/47lcH1glU6GAlNb9aXEIiw/edit?utm_content=DAG8hqMOFik&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
     },
     {
-      title: 'Portfolio Website',
-      description: 'Modern portfolio template with dark mode and smooth animations.',
-      image: 'https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=500&h=300&fit=crop',
-      tags: ['React', 'Tailwind', 'Framer'],
-      link: '#'
+      title: 'Presentation about Principles of Marketing',
+      description: 'Educational presentation on the fundamental principles of marketing.',
+      image: '/images/gju.jpg',
+      tags: ['educational'],
+      link: 'https://www.canva.com/design/DAGvf42X4Ps/bimQ_ZLnhfJwWwT_mhzOsQ/edit?utm_content=DAGvf42X4Ps&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
     },
   ];
   const [projects, setProjects] = useState(() => {
